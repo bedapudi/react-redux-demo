@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter'
 import Display from './components/Dispaly'
+import Content from './components/Content'
 import AnotherComponent from './components/AnotherComponent'
 const initialState = {
   count: 0,
@@ -44,7 +45,8 @@ function App() {
           </p>
           <Counter />
           <Display/>
-          {/* <AnotherComponent/> */}
+          <Content/>
+          <AnotherComponent/>
       </div>
     </Provider>
   );

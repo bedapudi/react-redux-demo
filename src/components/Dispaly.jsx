@@ -4,7 +4,8 @@ import {useState} from 'react'
 const mapStateToProps= (state) => {
     return{
         count: state.count,
-        anotherCount: state.anotherCount
+        anotherCount: state.anotherCount,
+        demo:'here'
     }
 }
 const Display = (props)=>{
