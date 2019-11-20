@@ -46,9 +46,9 @@ function App() {
     <Provider store={store}>
       <div className="App">
           <p>
-          i am here
+          i am the app
           </p>
-          <Counter />
+          {/* <Counter />
           <Display/>
           <Content/>
           <AnotherComponent/>
@@ -57,7 +57,7 @@ function App() {
           <ReactChildrenDemo subComponent={<div className='sub'><h5>h5</h5><h6>h6</h6></div>}>
             <h1>i am h1</h1>
             <h2>i am h2</h2>
-          </ReactChildrenDemo>
+          </ReactChildrenDemo> */}
       </div>
     </Provider>
   );
